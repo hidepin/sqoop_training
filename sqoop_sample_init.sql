@@ -22,5 +22,5 @@ CREATE TABLE SALES_DETAIL
   PRIMARY KEY (SALES_ID, DETAIL_ID)
 );
 
-COPY SALES FROM '/tmp/sqoop_training]/sqoop_sample/daily-sales.tsv';
+COPY SALES FROM '/tmp/sqoop_training/sqoop_sample/daily-sales.tsv';
 COPY SALES FROM '/tmp/sqoop_training/sqoop_sample/daily-sales_detail.tsv';
