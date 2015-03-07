@@ -23,4 +23,4 @@ CREATE TABLE SALES_DETAIL
 );
 
 COPY SALES FROM '/tmp/sqoop_training/sqoop_sample/daily-sales.tsv';
-COPY SALES FROM '/tmp/sqoop_training/sqoop_sample/daily-sales_detail.tsv';
+COPY SALES_DETAIL FROM '/tmp/sqoop_training/sqoop_sample/daily-sales_detail.tsv';
